@@ -14,7 +14,7 @@ ul {
 li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 30px 26px;
     text-decoration: none;
 }
 
@@ -29,11 +29,11 @@ li a:hover {
     color: white;
 }
 ul {
-    border: 1px solid #555;
+    border: 2px solid #555;
 }
 li {
     text-align: center;
-    border-bottom: 1px solid #555;
+    border-bottom: 2px solid #555;
 }
 li:last-child {
     border-bottom: none;
