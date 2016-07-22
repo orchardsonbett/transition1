@@ -38,3 +38,17 @@ li {
 li:last-child {
     border-bottom: none;
 }
+h2,
+h3 {
+    text-align: left;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 30px;
+    line-height: 10px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    padding-left: 40px;
+}
+p {
+    font-family: 'Candal', sans-serif;
+    font-size: 20px;
+}
