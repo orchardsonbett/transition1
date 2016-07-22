@@ -156,8 +156,9 @@ sub {
 /**
    * Remove border when inside `a` element in IE 8/9/10.
    */
+div
 img {
-  border: 0; }
+  border: 0;float: left; }
 
 /**
    * Correct overflow not hidden in IE 9/10/11.
@@ -550,7 +551,10 @@ button {
   margin-left: 33.33333%; }
 
 .small-6 {
-  width: 50%; }
+  width: 50%;
+    padding-left: 20px;
+    margin: 20px;
+}
 
 .small-push-6 {
   position: relative;
@@ -634,7 +638,8 @@ button {
   margin-left: 83.33333%; }
 
 .small-12 {
-  width: 100%; }
+  width: 100%;padding-bottom: 200px;
+padding-top: 200px;}
 
 .small-offset-11 {
   margin-left: 91.66667%; }
@@ -2566,7 +2571,7 @@ select {
       padding-bottom: 1rem;
       display: block; }
       .media-object.stack-for-small .media-object-section img {
-        width: 100%; } }
+        width: 100%; }
 
 .media-object-section {
   display: table-cell;
